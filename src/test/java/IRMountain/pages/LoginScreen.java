@@ -6,10 +6,11 @@ import net.serenitybdd.core.pages.WebElementFacade;
 
 public class LoginScreen extends PageObject{
 
-	@FindBy(id="")
+	@FindBy(name="email")
 	WebElementFacade userTxt;
-	@FindBy(id="")
+	@FindBy(name="password")
 	WebElementFacade passTxt;
+	
 	WebElementFacade loginBtn;
 	
 	public void input_user(String username) {
