@@ -10,7 +10,7 @@ public class IronMain {
 	
 	@Steps
 	LoginSteps loginSt;
-	@Given("^Login page Portal page$")
+	@Given("^Login page Portal page")
 	public void login_page_Portal_page() {
 		loginSt.accessUrl();	    
 	}
