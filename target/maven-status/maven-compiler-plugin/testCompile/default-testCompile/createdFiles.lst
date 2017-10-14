@@ -1,3 +1,4 @@
+Common\ReadProperties.class
 IRMountain\IronMain.class
 IRMountain\DefinitionTestSuite.class
 IRMountain\steps\LoginSteps.class

@@ -8,8 +8,8 @@ public class LoginSteps extends ScenarioSteps{
 	LoginScreen logScr;
 	
 	@Step
-	public void accessUrl() {	
-		logScr.open();
+	public void accessUrl(String url) {	
+		logScr.openAt(url);
 	}
 	
 	@Step
