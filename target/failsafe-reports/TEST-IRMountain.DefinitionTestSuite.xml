@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="IRMountain.DefinitionTestSuite" time="2.362" tests="25" errors="0" skipped="20" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="IRMountain.DefinitionTestSuite" time="428.692" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
@@ -66,171 +66,24 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given Open &apos;https://portal.ironcloud.dynagility.us&apos;" classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-out><![CDATA[Setting runtime options in createRuntime()
-]]></system-out>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-
--------------------------------------------------------------------------------------
-     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
-    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
-   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
-    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
-.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
-|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
--------------------------------------------------------------------------------------
-
-[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: Working with Iron
-[main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
-TEST STARTED: Working util customer is happy.
--------------------------------------------------------------------(working-with-iron;working-util-customer-is-happy.;;2)
-]]></system-err>
-  </testcase>
-  <testcase name="And Login site by &apos;manager@dynagility.com&apos; and &apos;Iron123456&apos; account." classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="And Click on Login button" classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Working util customer is happy.
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0.161"/>
-  <testcase name="Given Open &apos;https://portal.ironcloud.dynagility.us&apos;" classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="And Login site by &apos;customer@dynagility.com&apos; and &apos;Iron123456&apos; account." classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="And Click on Login button" classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Working util customer is happy.
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0.013"/>
-  <testcase name="Given Open &apos;https://admin.ironcloud.dynagility.us&apos;" classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="And Login site by &apos;sysadmin@dynagility.com&apos; and &apos;Iron123456&apos; account." classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="And Click on Login button" classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Working util customer is happy.
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0.025"/>
-  <testcase name="Given Open &apos;https://admin.ironcloud.dynagility.us&apos;" classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="And Login site by &apos;sales@dynagility.com&apos; and &apos;Iron123456&apos; account." classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="And Click on Login button" classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Working util customer is happy.
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0.009"/>
-  <testcase name="Given Open &apos;https://admin.ironcloud.dynagility.us&apos;" classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="And Login site by &apos;marketing@dynagility.com&apos; and &apos;Iron123456&apos; account." classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="And Click on Login button" classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-]]></system-err>
-  </testcase>
-  <testcase name="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="0">
-    <skipped/>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Working util customer is happy.
----------------------------------------------------------------------------------
-[pool-1-thread-1] INFO net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Working util customer is happy. to file D:\GitLocal\IRMountain\target\site\serenity\83c8bb9f44a30a5caa647d7081d311cb36e171e439fc38803b2dd31602fa269f.json (using temp file D:\GitLocal\IRMountain\target\site\serenity\83c8bb9f44a30a5caa647d7081d311cb36e171e439fc38803b2dd31602fa269f.jsondfbd90bb-9063-4469-9bb3-1bd447a1cc4a)
-[pool-2-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Working with Iron:Working util customer is happy. in 83c8bb9f44a30a5caa647d7081d311cb36e171e439fc38803b2dd31602fa269f.html in directory target\site\serenity  
-]]></system-err>
-  </testcase>
-  <testcase name="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="1.294"/>
+  <testcase name="Given Open &quot;https://portal.ironcloud.dynagility.us&quot;" classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0.001"/>
+  <testcase name="And Login site by &quot;manager@dynagility.com&quot; and &quot;Iron123456&quot; account." classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Click on Login button" classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" classname="| https://portal.ironcloud.dynagility.us | manager@dynagility.com | Iron123456 |" time="0.582"/>
+  <testcase name="Given Open &quot;https://portal.ironcloud.dynagility.us&quot;" classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0.001"/>
+  <testcase name="And Login site by &quot;customer@dynagility.com&quot; and &quot;Iron123456&quot; account." classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Click on Login button" classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" classname="| https://portal.ironcloud.dynagility.us | customer@dynagility.com | Iron123456 |" time="0.559"/>
+  <testcase name="Given Open &quot;https://admin.ironcloud.dynagility.us&quot;" classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Login site by &quot;sysadmin@dynagility.com&quot; and &quot;Iron123456&quot; account." classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Click on Login button" classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | sysadmin@dynagility.com | Iron123456 |" time="0.673"/>
+  <testcase name="Given Open &quot;https://admin.ironcloud.dynagility.us&quot;" classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Login site by &quot;sales@dynagility.com&quot; and &quot;Iron123456&quot; account." classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Click on Login button" classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | sales@dynagility.com | Iron123456 |" time="0.652"/>
+  <testcase name="Given Open &quot;https://admin.ironcloud.dynagility.us&quot;" classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Login site by &quot;marketing@dynagility.com&quot; and &quot;Iron123456&quot; account." classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="And Click on Login button" classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="0"/>
+  <testcase name="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" classname="| https://admin.ironcloud.dynagility.us | marketing@dynagility.com | Iron123456 |" time="5.036"/>
 </testsuite>

@@ -35,8 +35,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 0],
-                ['Pending', 5],
+                ['Passing', 5],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -68,8 +68,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '0 requirements tested successfully'},
-                {label: '5 requirements pending'},
+                {label: '5 requirements tested successfully'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -166,7 +166,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-10-2017 13:51</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-10-2017 14:03</span>
     <br style="clear:left"/>
 </div>
 
@@ -203,9 +203,9 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria (tests)</a></td>
                                     <td>5</td>
-                                    <td>0</td>
-                                    <td>0</td>
                                     <td>5</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -234,9 +234,9 @@
         <tr>
             <td class="summary-leading-column">Automated</td>
             <td>5</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>5 (100%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -250,14 +250,14 @@
         <tr>
             <td class="summary-leading-column">Total</td>
             <td>5</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
             <td>5 (100%)</td>
+            <td>0 (0%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">0 seconds</td>
+                <td colspan="5">7 minutes 3 seconds</td>
         </tr>
         </body>
     </table>
@@ -286,11 +286,11 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
                                         <a href="83c8bb9f44a30a5caa647d7081d311cb36e171e439fc38803b2dd31602fa269f.html" class="ellipsis"
@@ -301,12 +301,12 @@
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">20</td>
+                                <td class="SUCCESS-text">35</td>
 
 
-                                <td class="PENDING-text" data-sort="2017-10-14 13:51:45">13:51:45</td>
+                                <td class="SUCCESS-text" data-sort="2017-10-14 14:03:24">14:03:24</td>
 
-                                <td class="PENDING-text">0.18</td>
+                                <td class="SUCCESS-text">423.37</td>
                             </tr>
                         </tbody>
                     </table>

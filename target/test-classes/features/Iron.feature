@@ -1,8 +1,8 @@
 Feature: Working with Iron
 
 Scenario Outline: Working util customer is happy.
-Given Open '<url>'
-And Login site by '<username>' and '<password>' account.
+Given Open "<url>"
+And Login site by "<username>" and "<password>" account.
 And Click on Login button
 
 Examples: 
