@@ -1,17 +1,10 @@
 Feature: Working with Iron
 
-Scenario Outline: Working util customer is happy.
-Given Open "<url>"
-And Login site by "<username>" and "<password>" account.
-And Click on Login button
-
-Examples: 
-|url                                   |username              |password  |
-|https://portal.ironcloud.dynagility.us|manager@dynagility.com|Iron123456|
-|https://portal.ironcloud.dynagility.us|customer@dynagility.com|Iron123456|
-|https://admin.ironcloud.dynagility.us |sysadmin@dynagility.com|Iron123456|
-|https://admin.ironcloud.dynagility.us |sales@dynagility.com   |Iron123456|
-|https://admin.ironcloud.dynagility.us |marketing@dynagility.com|Iron123456|
+Scenario: Order new service process.
+Given Open "https://portal.ironcloud.dynagility.us"
+And Login site by "manager@dynagility.com" and "Iron123456" account.
+And Go to Service Catalog screen.
+And Take searchs with keyword "Truyen 01" and go to service detail
 
 
 

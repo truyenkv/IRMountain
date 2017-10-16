@@ -27,6 +27,11 @@ public class LoginSteps extends ScenarioSteps{
 		logScr.click_Loginbtn();
 		
 	}
+
+	public void click_On_ServiceCatalog() {
+		logScr.click_ShowCatalog();
+		
+	}
 	
 
 	

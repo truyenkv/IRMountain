@@ -1,5 +1,5 @@
-Serenity report generated 14-10-2017 14:10
-1 test scenarios (5 tests in all, including 5 rows of test data)
+Serenity report generated 16-10-2017 21:49
+1 test scenarios 
 
 Passed:             1
 Pending             0
