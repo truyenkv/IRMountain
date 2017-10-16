@@ -10,6 +10,7 @@ public class LoginSteps extends ScenarioSteps{
 	@Step
 	public void accessUrl(String url) {	
 		logScr.openAt(url);
+		getDriver().manage().window().maximize();
 	}
 	
 	@Step

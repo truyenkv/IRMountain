@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="IRMountain.DefinitionTestSuite" time="194.217" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="IRMountain.DefinitionTestSuite" time="153.015" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_74\jre\bin"/>
@@ -66,9 +66,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given Open &quot;https://portal.ironcloud.dynagility.us&quot;" classname="Scenario: Order new service process." time="0.002"/>
+  <testcase name="Given Open &quot;https://portal.ironcloud.dynagility.us&quot;" classname="Scenario: Order new service process." time="0.015"/>
   <testcase name="And Login site by &quot;manager@dynagility.com&quot; and &quot;Iron123456&quot; account." classname="Scenario: Order new service process." time="0"/>
   <testcase name="And Go to Service Catalog screen." classname="Scenario: Order new service process." time="0"/>
   <testcase name="And Take searchs with keyword &quot;Truyen 01&quot; and go to service detail" classname="Scenario: Order new service process." time="0"/>
-  <testcase name="Scenario: Order new service process." classname="Scenario: Order new service process." time="2.692"/>
+  <testcase name="Scenario: Order new service process." classname="Scenario: Order new service process." time="3.379"/>
 </testsuite>

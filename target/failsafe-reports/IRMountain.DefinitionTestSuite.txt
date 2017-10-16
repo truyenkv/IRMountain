@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: IRMountain.DefinitionTestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 194.217 sec - in IRMountain.DefinitionTestSuite
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 153.015 sec - in IRMountain.DefinitionTestSuite
