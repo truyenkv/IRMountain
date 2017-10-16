@@ -1,14 +1,18 @@
 package IRMountain;
 
 import net.thucydides.core.annotations.Steps;
-
-import org.openqa.selenium.Keys;
-
 import IRMountain.steps.LoginSteps;
 import IRMountain.steps.PortalServiceCatalogStep;
+import IRMountain.steps.PortalServiceDetailStep;
+import IRMountain.steps.PortalServiceOrderStep;
 import cucumber.api.java.en.Given;
 
 public class IronMain {
+	@Steps
+	PortalServiceOrderStep serviceOrderSt;
+	
+	@Steps
+	PortalServiceDetailStep serviceDetailSt;
 	
 	@Steps
 	LoginSteps loginSt;
@@ -36,6 +40,26 @@ public class IronMain {
 	@Given("^Take searchs with keyword \"([^\"]*)\" and go to service detail$")
 	public void take_searchs_with_keyword_and_go_to_service_detail(String keyword) {
 	    catalogSt.enter_keyword(keyword);
+	}
+	
+	@Given("^Take order new service with email \"([^\"]*)\"\\.$")
+	public void take_order_new_service(String email){
+		catalogSt.click_On_Service();
+		serviceDetailSt.Click_On_Order_Button();
+		serviceOrderSt.Enter_Invoicing_And_Report(email);
+		
+		
+		
+	}
+
+	@Given("^Go to notification screen\\.$")
+	public void go_to_notification_screen()  {
+	    
+	}
+
+	@Given("^Approve service request\\.$")
+	public void approve_service_request() {
+	    
 	}
 
 

@@ -12,11 +12,16 @@ public class PortalServiceCatalogScreen extends PageObject{
 
 	@FindBy(xpath="//input[@type='text' and @class='form-control']")
 	WebElementFacade seachForm;
+	@FindBy(xpath="//*[contains(text(),'Truyen 01')]")
+	WebElementFacade serviceItem;
 	public void enter_key(String keyword) {
 		typeInto(seachForm, keyword);		
 	}
 	public void press(Keys enter) {
 		seachForm.sendKeys(Keys.ENTER);
+	}
+	public void clickOnServiceName() {
+		serviceItem.click();		
 	}
 
 	

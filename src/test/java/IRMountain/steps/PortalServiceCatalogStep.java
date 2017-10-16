@@ -12,5 +12,10 @@ public class PortalServiceCatalogStep extends ScenarioSteps{
 		catalogScr.enter_key(keyword);
 		catalogScr.press(Keys.ENTER);
 	}
+	public void click_On_Service() {
+		catalogScr.clickOnServiceName();
+		
+	}
+	
 	
 }
