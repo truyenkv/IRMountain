@@ -46,10 +46,8 @@ public class IronMain {
 	public void take_order_new_service(String email){
 		catalogSt.click_On_Service();
 		serviceDetailSt.Click_On_Order_Button();
-		serviceOrderSt.Enter_Invoicing_And_Report(email);
-		
-		
-		
+		serviceOrderSt.Enter_Contact_Information_Page1(email);
+		serviceOrderSt.Next_Screen();
 	}
 
 	@Given("^Go to notification screen\\.$")

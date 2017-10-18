@@ -8,6 +8,7 @@ public class PortalServiceDetailScreen extends PageObject {
 	WebElementFacade order_new_service;
 	WebElementFacade reportingEmail;
 	public void Click_On_Order_button() {
+		waitForAllTextToAppear("ORDER NEW SERVICE");
 		order_new_service.click();	
 	}
 	
