@@ -10,8 +10,3 @@ And Open "https://admin.ironcloud.dynagility.us/"
 And Login site by "sales@dynagility.com" and "Iron123456" account.
 And Go to notification screen.
 And Approve service request.
-
-
-
-
-
