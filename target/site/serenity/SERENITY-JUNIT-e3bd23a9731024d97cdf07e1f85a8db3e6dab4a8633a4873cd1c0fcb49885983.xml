@@ -1,1 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Working with Iron" skipped="0" tests="1" time="129.67" timestamp="2017-10-20T16:44:43.634+07:00[Asia/Bangkok]"><testcase name="Order new service process."/></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Working with Iron" skipped="0" tests="1" time="348.05" timestamp="2017-10-21T20:47:47.130+07:00[Asia/Bangkok]"><testcase name="Order new service process."><error message="timeout&#10;  (Session info: chrome=61.0.3163.100)&#10;  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 300.32 seconds&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'LAPTOP-QPURT33B', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\kieuv\AppData\Local\Temp\scoped_dir10968_32526}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]&#10;Session ID: 1ba5b81eaf65ee5394a3770d895cccfd&#10;Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'&#10;System info: host: 'LAPTOP-QPURT33B', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.32 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-QPURT33B', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\kieuv\AppData\Local\Temp\scoped_dir10968_32526}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1ba5b81eaf65ee5394a3770d895cccfd
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-QPURT33B', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
+Driver info: driver.version: unknown</error><system-err>timeout
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 300.32 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-QPURT33B', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41), userDataDir=C:\Users\kieuv\AppData\Local\Temp\scoped_dir10968_32526}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=61.0.3163.100, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 1ba5b81eaf65ee5394a3770d895cccfd
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'LAPTOP-QPURT33B', ip: '192.168.1.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_74'
+Driver info: driver.version: unknown&#13;
+IRMountain.steps.LoginSteps.accessUrl(LoginSteps.java:12)&#13;
+IRMountain.IronMain.open(IronMain.java:25)&#13;
+</system-err></testcase></testsuite>

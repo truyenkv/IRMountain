@@ -1,0 +1,11 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head>
+    <title>IronCloud Portal</title>
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <base href="/" target="_blank" />
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap-theme.min.css">-->
+</head>
+
+<body class="im-portal">
+    <div id="imPortalApp"></div>
+    <script src="assets/index.js"></script></body></html>

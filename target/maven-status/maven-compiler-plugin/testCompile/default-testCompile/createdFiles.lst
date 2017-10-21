@@ -7,6 +7,7 @@ IRMountain\DefinitionTestSuite.class
 IRMountain\steps\LoginSteps.class
 IRMountain\steps\PortalServiceDetailStep.class
 IRMountain\IronMain.class
+Common\Scroll.class
 IRMountain\pages\LoginScreen.class
 IRMountain\pages\PortalServiceDetailScreen.class
 IRMountain\steps\PortalServiceCatalogStep.class
