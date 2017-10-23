@@ -1,4 +1,6 @@
 Common\ReadProperties.class
+IRMountain\steps\ContactInformation2Step.class
+IRMountain\steps\ContactInformation3Step.class
 IRMountain\pages\ContactInformation3screen.class
 IRMountain\pages\PortalServiceCatalogScreen.class
 IRMountain\pages\ContactInformation2screen.class
@@ -11,4 +13,4 @@ Common\Scroll.class
 IRMountain\pages\LoginScreen.class
 IRMountain\pages\PortalServiceDetailScreen.class
 IRMountain\steps\PortalServiceCatalogStep.class
-IRMountain\steps\PortalServiceOrderStep.class
+IRMountain\steps\ContactInformation1Step.class

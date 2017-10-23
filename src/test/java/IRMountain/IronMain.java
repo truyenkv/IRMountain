@@ -1,15 +1,17 @@
 package IRMountain;
 
 import net.thucydides.core.annotations.Steps;
+import net.thucydides.core.steps.ScenarioSteps;
+import IRMountain.steps.ContactInformation1Step;
 import IRMountain.steps.LoginSteps;
 import IRMountain.steps.PortalServiceCatalogStep;
 import IRMountain.steps.PortalServiceDetailStep;
-import IRMountain.steps.PortalServiceOrderStep;
 import cucumber.api.java.en.Given;
 
 public class IronMain {
-	@Steps
-	PortalServiceOrderStep serviceOrderSt;
+	
+	@Steps 
+	ContactInformation1Step serviceOrderSt;
 	
 	@Steps
 	PortalServiceDetailStep serviceDetailSt;
